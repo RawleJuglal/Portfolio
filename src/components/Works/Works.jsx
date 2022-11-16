@@ -5,7 +5,7 @@ export default function Works(){
     return(
         <div className='--works--works-container'>
             <div className='--works-image-overlay --works-image-colorize'>
-                <img className='--works-img --works-item1' src="/images/proof.jpg"></img>
+                <img className='--works-img --works-item1' src="/Portfolio/images/proof.jpg"></img>
             </div>
         </div>
     )
