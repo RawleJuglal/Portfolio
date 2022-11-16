@@ -31,3 +31,40 @@
 .--works-img{
     width:100%;
 }
+
+.--works-btns-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.--works-viewerBTN-container, .--works-repoBTN-container{
+    width:100px;
+    height:50px;
+    margin-top:24px;
+    background-color:rgba(0, 255, 242, 0.4);
+    border:1px solid white;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 3px 6px, rgba(255, 255, 255, 0.23) 0px 3px 6px;
+}
+
+.--works-link{
+    text-decoration: none;
+    display:flex;
+    gap:10px;
+}
+
+.--works-btn{
+    width:32px;
+    height:32px;
+    color:white;
+}
+
+.--works-text{
+    align-self:center;
+    color:black;
+    font-weight:bold;
+}
