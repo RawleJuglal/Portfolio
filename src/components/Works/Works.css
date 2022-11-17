@@ -25,9 +25,10 @@
 
 .--works-image-colorize:hover img {
     filter: grayscale(100%) brightness(100%);
-    transform: scale(3);
+    transform: scale(1.5);
 }
 
 .--works-img{
     width:100%;
 }
+
