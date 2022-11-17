@@ -3,3 +3,13 @@
   background-size: cover;
   padding-bottom: 60px;
 }
+
+@media screen and (min-width:768px) {
+  .--app-app-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100vh;
+    padding-bottom:unset;
+  }
+}

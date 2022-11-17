@@ -1,5 +1,6 @@
 import React from 'react'
 import './Works.css'
+import WorksBtn from '../WorksBtn/WorksBtn'
 
 export default function Works(props){
     
@@ -9,7 +10,8 @@ export default function Works(props){
             <div className='--works-image-overlay --works-image-colorize'>
                 <img className='--works-img --works-item1' src={props.work.imgUrl}></img>
             </div>
-            <div className='--works-btns-container'>
+            <WorksBtn site={props.work.siteLink} repo={props.work.githubLink}/>
+            {/* <div className='--works-btns-container'>
                 <div className='--works-viewerBTN-container'>
                     <a className='--works-viewer-link --works-link' href={props.work.siteLink}>
                         <img className="--works-viewer-btn --works-btn" src="/Portfolio/icons/viewerBTN.png" alt="viewer button"></img>
@@ -22,7 +24,7 @@ export default function Works(props){
                         <span className='--works-repo-text --works-text'>Repo</span>
                     </a>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

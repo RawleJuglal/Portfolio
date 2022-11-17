@@ -19,7 +19,7 @@ export default [
         id:nanoid(),
         title:'ReactMDE',
         imgUrl:'/Portfolio/images/proof.jpg',
-        siteLink:'#',
+        siteLink:'',
         githubLink:'https://github.com/RawleJuglal/ReactMDE'
     },
     {
