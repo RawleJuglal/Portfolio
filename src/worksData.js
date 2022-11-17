@@ -4,7 +4,7 @@ export default [
     {
         id:nanoid(),
         title:'Quizzical',
-        imgUrl:'/Portfolio/images/proof.jpg',
+        imgUrl:'/Portfolio/images/Quizzical.png',
         siteLink:'#',
         githubLink:'https://github.com/RawleJuglal/Quizzical'
     },
