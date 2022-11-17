@@ -10,9 +10,11 @@ const style = {
 };
   
   export default function MyCarousel(props){
-
     const slides = props.works.map((ele)=>{
-      return <div key={ele.id} style={style}><img className='--myCarousel-img' alt="" src={ele.imgUrl} /><WorksBtn site={ele.siteLink} repo={ele.githubLink}/></div>
+      return  <div key={ele.id} style={style}>
+                <img className='--myCarousel-img' alt="" src={ele.imgUrl} onClick={(event)=>{props.clicked(event, ele.id)}}/>
+                {ele.selected && <WorksBtn site={ele.siteLink} repo={ele.githubLink}/>}
+              </div>
     })
 
     return(
