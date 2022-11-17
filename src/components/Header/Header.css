@@ -12,3 +12,34 @@
 .--header-title, .--header-contact-info{
     text-shadow: 1px 1px 2px  rgb(4, 152, 211), 0 0 1em black, 0 0 0.2em black;
 }
+
+@media screen and (min-width:768px) {
+    .--header-header-container{
+        display:grid;
+        grid-template-areas: 
+        "header-title header-title header-title"
+        "header-phone header-address header-email";
+    }
+
+    .--header-contact-info{
+        font-size:2.5vw;
+    }
+
+    .--header-title{
+        grid-area: header-title;
+        margin:20px auto;
+    }
+
+    .--header-phone{
+        grid-area:header-phone;
+        justify-self:center;
+    }
+    .--header-address{
+        grid-area:header-address;
+        justify-self:center;
+    }
+    .--header-email{
+        grid-area:header-email;
+        justify-self:center;
+    }
+}

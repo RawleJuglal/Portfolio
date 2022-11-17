@@ -1,6 +1,8 @@
 import React from 'react'
 import { Carousel } from '../../../node_modules/react-carousel3/dist/esm/index';
 import './Carousel.css'
+import WorksBtn from '../WorksBtn/WorksBtn';
+
 
 const style = {
   width: 297,
@@ -10,11 +12,11 @@ const style = {
   export default function MyCarousel(props){
 
     const slides = props.works.map((ele)=>{
-      return <div key={ele.id} style={style}><img className='--myCarousel-img' alt="" src="/Portfolio/images/proof.jpg" /></div>
+      return <div key={ele.id} style={style}><img className='--myCarousel-img' alt="" src={ele.imgUrl} /><WorksBtn site={ele.siteLink} repo={ele.githubLink}/></div>
     })
 
     return(
-      <div
+      <div className='--myCarousel-carousel-container'
         style={{
           display: 'flex',
           justifyContent: 'center',
