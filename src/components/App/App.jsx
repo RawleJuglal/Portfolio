@@ -8,7 +8,19 @@ import SocialIcons from '../SocialIcons/SocialIcons';
 
 function App() {
   const [state, setState] = React.useState({works:Data})
-  const windowWidth = window.innerWidth;
+  const [windowWidth, setWindowWidth] = React.useState(window.innerWidth);
+  // const windowWidth = window.innerWidth;
+
+  React.useEffect(() => {
+    window.addEventListener("resize", function() {
+      console.log(this.window.innerWidth)
+        setWindowWidth(()=>{
+          return this.window.innerWidth;
+        })
+    })
+}, [])
+
+
 
   const worksList = state.works.map((ele)=>{
     return <Works key={ele.id} work={ele}/>
@@ -37,7 +49,7 @@ function App() {
     <div className="--app-app-container">
       <Header />
       <SocialIcons />
-      {windowWidth < 321 ? worksList : <MyCarousel works={state.works} clicked={handleClick}/>}
+      {windowWidth < 1024 ? <div className='--app-works-container-wrapper'>{worksList}</div> : <MyCarousel works={state.works} clicked={handleClick}/>}
       
       
     </div>

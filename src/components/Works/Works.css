@@ -1,6 +1,5 @@
-.--works--works-container{
+.--works-works-container{
     width:280px;
-    margin:60px auto;
     color:white;
 }
 
@@ -30,5 +29,6 @@
 
 .--works-img{
     width:100%;
+    min-height:210px;
 }
 
