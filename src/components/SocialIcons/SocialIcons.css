@@ -1,0 +1,47 @@
+.--socialicons-socialicon-container{
+    width:300px;
+    display:flex;
+    justify-content: space-evenly;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+
+.fa-brands{
+    font-size:2.5rem;
+    padding:5px 5px;
+    border-radius:3px;
+}
+
+.--socialicons-fa-github{
+    color:darkslateblue;
+    border:1px solid darkslateblue;
+    transition: background-color 1s ease-out, color 1s ease-out;
+}
+.--socialicons-fa-github:hover{
+    background-color:darkslateblue;
+    color:white;
+    
+}
+
+.--socialicons-fa-codepen{
+    color:lightskyblue;
+    border:1px solid lightskyblue;
+    transition: background-color 1s ease-out, color 1s ease-out;
+}
+
+.--socialicons-fa-codepen:hover{
+    background-color:lightskyblue;
+    color:white;
+}
+
+.--socialicons-fa-free-code-camp{
+    color:darkgreen;
+    border:1px solid darkgreen;
+    transition: background-color 1s ease-out, color 1s ease-out;
+}
+
+.--socialicons-fa-free-code-camp:hover{
+    background-color: darkgreen;
+    color:white;
+}

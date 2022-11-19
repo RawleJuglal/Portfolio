@@ -4,6 +4,7 @@ import Header from '../Header/Header'
 import Works from '../Works/Works'
 import Data from '../../worksData';
 import MyCarousel from '../Carousel/Carousel';
+import SocialIcons from '../SocialIcons/SocialIcons';
 
 function App() {
   const [state, setState] = React.useState({works:Data})
@@ -35,6 +36,7 @@ function App() {
   return (
     <div className="--app-app-container">
       <Header />
+      <SocialIcons />
       {windowWidth < 321 ? worksList : <MyCarousel works={state.works} clicked={handleClick}/>}
       
       
