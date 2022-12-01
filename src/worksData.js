@@ -65,4 +65,12 @@ export default [
         githubLink:'https://github.com/RawleJuglal/ReactStatic',
         selected:false
     },
+    {
+        id:nanoid(),
+        title:'Bored Bot React',
+        imgUrl:'/Portfolio/images/BoredBotReact.png',
+        siteLink:'https://rawlejuglal.github.io/BoredBotReact/',
+        githubLink:'https://github.com/RawleJuglal/BoredBotReact',
+        selected:false
+    }
 ]
