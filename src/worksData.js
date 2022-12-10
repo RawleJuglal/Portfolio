@@ -72,5 +72,21 @@ export default [
         siteLink:'https://rawlejuglal.github.io/BoredBotReact/',
         githubLink:'https://github.com/RawleJuglal/BoredBotReact',
         selected:false
+    },
+    {
+        id:nanoid(),
+        title:'Color Scheme Generator',
+        imgUrl:'/Portfolio/images/ColorSchemeGenerator.png',
+        siteLink:'https://rawlejuglal.github.io/ColorSchemeGenerator/',
+        githubLink:'https://github.com/RawleJuglal/ColorSchemeGenerator',
+        selected:false
+    },
+    {
+        id:nanoid(),
+        title:'Game of War',
+        imgUrl:'/Portfolio/images/GameOfWar.png',
+        siteLink:'https://rawlejuglal.github.io/GameOfWar/',
+        githubLink:'https://github.com/RawleJuglal/GameOfWar',
+        selected:false
     }
 ]
