@@ -88,5 +88,13 @@ export default [
         siteLink:'https://rawlejuglal.github.io/GameOfWar/',
         githubLink:'https://github.com/RawleJuglal/GameOfWar',
         selected:false
+    },
+    {
+        id:nanoid(),
+        title:'Movie Watchlist',
+        imgUrl:'/Portfolio/images/MovieWatchlist.png',
+        siteLink:'https://rawlejuglal.github.io/MovieWatchlist/',
+        githubLink:'https://github.com/RawleJuglal/MovieWatchlist',
+        selected:false
     }
 ]
