@@ -96,5 +96,13 @@ export default [
         siteLink:'https://rawlejuglal.github.io/MovieWatchlist/',
         githubLink:'https://github.com/RawleJuglal/MovieWatchlist',
         selected:false
+    },
+    {
+        id:nanoid(),
+        title:'Api Dashboard',
+        imgUrl:'/Portfolio/images/Apidashboard.png',
+        siteLink:'https://rawlejuglal.github.io/Apidashboard/',
+        githubLink:'https://github.com/RawleJuglal/Apidashboard',
+        selected:false
     }
 ]
