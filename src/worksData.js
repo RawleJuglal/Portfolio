@@ -104,5 +104,13 @@ export default [
         siteLink:'https://rawlejuglal.github.io/Apidashboard/',
         githubLink:'https://github.com/RawleJuglal/Apidashboard',
         selected:false
+    },
+    {
+        id:nanoid(),
+        title:'Speed Typing Game',
+        imgUrl:'/Portfolio/images/SpeedTypingGame.png',
+        siteLink:'https://rawlejuglal.github.io/SpeedTypingGame/',
+        githubLink:'https://github.com/RawleJuglal/SpeedTypingGame',
+        selected:false
     }
 ]
