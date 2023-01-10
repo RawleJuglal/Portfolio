@@ -112,5 +112,13 @@ export default [
         siteLink:'https://rawlejuglal.github.io/SpeedTypingGame/',
         githubLink:'https://github.com/RawleJuglal/SpeedTypingGame',
         selected:false
+    },
+    {
+        id:nanoid(),
+        title:'PicSome Clone',
+        imgUrl:'/Portfolio/images/PicSomeClone.png',
+        siteLink:'https://rawlejuglal.github.io/PicSomeClone/',
+        githubLink:'https://github.com/RawleJuglal/PicSomeClone',
+        selected:false
     }
 ]
